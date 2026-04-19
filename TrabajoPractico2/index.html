@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Juego de Memoria con Emojis</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <h1>Juego de Memoria con Emojis</h1>
+
+    <div id="controls">
+        <label>Tamaño tablero:</label>
+        <select id="tamano">
+            <option value="4">4 x 4</option>
+            <option value="6">6 x 6</option>
+            <option value="8">8 x 8</option>
+            <option value="10" selected>10 x 10</option>
+        </select>
+
+        <button id="nuevoJuego">Nuevo Juego</button>
+    </div>
+
+    <div id="panel">
+        <p id="intentos">Intentos: 0</p>
+        <p id="tiempo">Tiempo: 0s</p>
+    </div>
+
+    <div id="mensaje"></div>
+
+    <div id="tablero"></div>
+    <script src="js/fn.js"></script>
+</body>
+
+</html>
